@@ -2,6 +2,8 @@
 #include <math.h>
 #include "random.h"
 
+// Ref: https://en.wikipedia.org/wiki/Uniform_distribution_(continuous)#Moments
+
 int main() {
     for (int i = 1; i < 9; i++) {
         for (int j = 0; j < 5; j++) {
