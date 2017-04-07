@@ -4,8 +4,6 @@
 
 #DEFINE S 1337
 
-// Ref: https://en.wikipedia.org/wiki/Uniform_distribution_(continuous)#Moments
-
 int main() {
 	srand(S);
     for (int i = 1; i < 9; i++) {
@@ -20,8 +18,19 @@ int main() {
 }
 
 double compute_variance(int num) {
-	double A * = new double [num];
+	double * A = new double [num];
+	double T = 0, M = 0, V = 0;
 	for (int i = 0; i < num; i++) {
 		A[i] = rand();
 	}
+	for (int i = 0; i < num; i++) {
+		T += A[i];
+	}
+	M = T / num;
+	T = 0;
+	for (int i = 0; i < num; i++) {
+		T += (A[i] - M) * (A[i] - M);
+	}
+	V = T / num;
+	return V;
 }
