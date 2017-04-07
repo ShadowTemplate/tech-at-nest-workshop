@@ -2,6 +2,7 @@
 #include <math.h>
 #include "random.h"
 
+
 // Ref: https://en.wikipedia.org/wiki/Uniform_distribution_(continuous)#Moments
 
 int main() {
