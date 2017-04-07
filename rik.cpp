@@ -32,5 +32,6 @@ double compute_variance(int num) {
 		T += (A[i] - M) * (A[i] - M);
 	}
 	V = T / num;
+	delete [] A;
 	return V;
 }
