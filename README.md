@@ -44,7 +44,7 @@ compile the project:
 
 ```
 $ cmake .
-$ make .
+$ make
 ```
 
 Run your code:
