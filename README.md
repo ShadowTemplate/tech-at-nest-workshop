@@ -39,7 +39,7 @@ $ cd tech-at-nest-workshop/
 $ touch YOUR_NAME.cpp
 ```
 
-Link your file by editing appropriately the ```CMakeLists.txt``` file, then 
+Link your file by editing appropriately the `CMakeLists.txt` file, then 
 compile the project:
 
 ```
