@@ -4,7 +4,7 @@ A C++/CMake/git exercise for the workshop held at Nest on the 07/04/2017.
 Attendees are required to clone this repository, complete a C++ program to 
 compute the [variance of a uniform distribution](
 https://en.wikipedia.org/wiki/Uniform_distribution_(continuous)#Moments
-) *U(0, 1)*, compile it with CMake and verify it is approximately 1/12.
+) *U*(0, 1), compile it with CMake and verify it is approximately 1/12.
 Finally, they have to submit their solution to this repository.
 
 ---
@@ -39,7 +39,7 @@ $ cd tech-at-nest-workshop/
 $ touch YOUR_NAME.cpp
 ```
 
-Link your file by editing appropriately the ```CMakeLists.txt``` file, the 
+Link your file by editing appropriately the ```CMakeLists.txt``` file, then 
 compile the project:
 
 ```
