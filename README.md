@@ -56,7 +56,7 @@ $ ./random
 ---
 ## Building tools
 
-* [C++ 11](https://isocpp.org/wiki/faq/cpp11) - Programming language
+* [C++11](https://isocpp.org/wiki/faq/cpp11) - Programming language
 * [CMake](https://cmake.org/) - Build automation
 
 ---
