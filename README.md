@@ -16,7 +16,7 @@ Finally, they have to submit their solution to this repository.
 
 **Development year(s)**: `2017`
 
-**Authors**: [CodingMako](https://github.com/CodingMako), 
+**Author(s)**: [CodingMako](https://github.com/CodingMako), 
 [laurascotch](https://github.com/laurascotch), 
 [martina-battisti](https://github.com/martina-battisti), 
 [PunitiveBox](https://github.com/PunitiveBox), 
